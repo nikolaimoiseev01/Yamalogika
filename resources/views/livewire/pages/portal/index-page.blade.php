@@ -1,17 +1,264 @@
 <main class="flex-1">
-   <section class="w-full h-screen relative flex items-center justify-center mb-20">
-       <img src="/fixed/welcome-bg.png" class="absolute w-full h-full object-cover" alt="">
-       <div class="flex flex-col items-center relative gap-2">
-           <x-logo class="w-40 md:w-32"/>
-           <svg width="234" height="53" viewBox="0 0 234 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-               <path d="M190.635 49.2963V38.3626L190.487 36.8851L190.561 30.9011L190.709 29.4975L190.561 28.0938V26.6163L190.487 24.991L190.709 22.036L190.561 20.5584L190.487 3.64079L191.373 1.57225L192.703 0.83349L197.062 0.464111L198.687 0.537987L200.165 0.83349H201.642L202.972 0.464111H204.449L205.927 0.759615H210.36L212.502 0.611862L214.866 0.685737L219.077 1.64613L221.884 2.60652L224.47 4.01017L228.681 8.44274L229.494 9.62477L230.085 10.8807L231.414 15.0916L231.636 16.5691L231.784 21.2233L230.823 25.5082L227.942 30.6795L226.908 31.566L225.874 32.6741L225.209 34.2994L225.283 36.0725L226.169 37.1806L228.533 41.0222L229.198 42.3519L231.71 46.1196L232.301 47.5233L233.187 48.5575L234 50.1828L233.557 51.8081L232.153 52.473L229.715 52.5469L228.312 52.3991L222.475 52.473L219.964 51.8081L218.338 50.4783L217.526 49.2224L216.935 47.7449L216.122 46.6368L214.718 43.9772L213.167 41.7609L212.576 40.4312L211.689 38.9536L210.212 37.6977L205.927 37.1067L204.523 37.9194L203.858 39.3969L203.711 44.125L203.932 45.6764L203.785 47.0061V49.5179L203.12 51.6603L200.756 52.3991H198.539L197.357 52.5469L194.993 52.3252L193.516 52.5469L191.373 51.5865L190.635 49.2963ZM205.927 25.2865L207.552 25.1388L211.098 25.2865L212.502 25.2127L214.644 24.6955L215.974 24.1045L216.787 23.4396L217.599 22.3315L218.264 20.854L218.486 18.6377L218.19 16.7169L217.747 15.5349L215.9 13.2447L214.497 12.8753L212.576 12.7276L210.507 12.2843L207.552 12.5798L206.075 12.5059L204.523 13.0969L203.858 14.5006L203.711 17.6034L203.858 18.8593V23.2919L204.449 24.4739L205.927 25.2865Z" fill="#ECEBF3"/>
-               <path d="M170.645 52.473L169.094 52.3253L167.394 51.5865L165.917 50.4783L165.474 49.1486L164.809 47.7449L163.405 46.5629L161.78 45.7503L160.154 45.9719L158.825 45.8241L151.585 45.898L150.255 45.6764L147.152 45.9719L145.749 45.7503L144.197 46.5629L142.794 47.9666L141.464 50.4045L140.06 51.7342L138.361 52.2514L134.224 52.3991L132.746 52.2514L129.865 52.3991L128.388 51.9559L128.018 50.109L128.462 48.6314L129.939 45.6764L130.308 44.3466L131.121 43.3123L132.229 40.3573L133.559 37.9933L134.076 36.5157L134.815 35.4076L135.258 33.7823L142.794 17.9728L143.237 16.643L144.049 15.2394L144.419 13.7619L145.231 12.6537L148.187 5.8571L148.851 4.82283L149.369 3.3453L150.033 2.08941L151.363 0.833511L153.727 0.020874L156.165 0.759635L157.421 2.08941L158.825 4.67507L159.268 6.00485L160.081 7.33462L160.524 8.81214L165.4 19.0809L165.917 20.6323L167.468 23.3658L167.911 24.5478L168.576 25.6559L169.02 27.2812L169.758 28.6849L170.497 29.793L173.304 36.5157L174.782 39.1753L175.816 41.9087L177.811 45.7503L178.919 48.4837L179.436 50.1828L179.215 51.9559L177.146 52.3253L174.856 52.3991L173.452 52.2514L170.645 52.473ZM153.875 34.0778L156.83 34.0039L157.938 33.4129L158.234 32.0832L154.762 23.9568L153.727 23.3658L152.915 24.0307L149.442 32.0093L149.516 33.4129L150.698 33.9301L152.397 33.7823L153.875 34.0778Z" fill="#ECEBF3"/>
-               <path d="M68.5525 52.547L67.075 51.5866L66.2624 50.0352L66.3362 33.7085L66.1885 32.3049L66.4101 24.8434L66.2624 23.3658L66.3362 11.5456L66.1885 10.2159L66.4101 7.3347L66.1885 2.82825L67.0011 1.27685L68.6264 0.538086L70.6949 1.1291L72.3941 2.38499L74.3149 4.37965L75.4969 5.41391L77.4177 7.70408L78.4519 8.5906L85.1747 16.0521L86.8 17.5296L88.1297 19.2288L89.164 20.263L90.0505 21.5189L91.6019 22.1099L92.9317 21.2234L97.4381 16.6431L98.3985 15.3872L104.9 8.73835L105.934 7.40858L106.82 6.59594L107.781 5.41391L110.884 2.16336L112.435 1.20297L114.577 0.538086L116.129 1.35072L117.015 2.90213L116.868 4.30577L116.941 7.3347L116.868 8.5906L117.015 11.7673L116.941 13.1709L117.015 20.4847L116.868 22.1099L117.015 44.2728L116.868 45.7504L117.089 49.5919L116.203 51.7343L114.651 52.547L105.712 52.2515L104.161 51.8082L103.57 50.109V49.0009L103.422 45.6765L103.57 44.3467L103.422 41.6133L103.57 38.7321L103.348 35.7771L103.496 31.7139L102.905 30.6057L101.945 31.049L98.9157 34.1518L97.8814 34.8905L95.8129 37.3285L94.9263 38.215L93.8921 39.3231L92.4145 40.4313L90.7893 40.3574L89.2379 39.2492L87.2432 37.3285L86.2828 36.1464L83.2539 33.1175L82.3674 32.0094L81.1854 31.049L80.4466 30.7535L79.7817 31.4184V34.2995L79.9295 35.9248L79.7817 38.5844L79.8556 40.1358L79.634 42.4259L79.8556 50.1829L78.9691 51.5127L76.9005 52.3992L74.5365 52.2515L72.9112 52.4731L70.03 52.3253L68.5525 52.547Z" fill="#ECEBF3"/>
-               <path d="M2.36404 52.547L0.886515 51.5866L0.0738764 50.0352L0.147752 33.7085L0 32.3049L0.221629 24.8434L0.0738764 23.3658L0.147752 11.5456L0 10.2159L0.221629 7.3347L0 2.82825L0.812639 1.27685L2.43792 0.538086L4.50645 1.1291L6.20561 2.38499L8.12639 4.37965L9.30841 5.41391L11.2292 7.70408L12.2635 8.5906L18.9862 16.0521L20.6115 17.5296L21.9412 19.2288L22.9755 20.263L23.862 21.5189L25.4134 22.1099L26.7432 21.2234L31.2497 16.6431L32.21 15.3872L38.7112 8.73835L39.7454 7.40858L40.6319 6.59594L41.5923 5.41391L44.6951 2.16336L46.2465 1.20297L48.3889 0.538086L49.9403 1.35072L50.8269 2.90213L50.6791 4.30577L50.753 7.3347L50.6791 8.5906L50.8269 11.7673L50.753 13.1709L50.8269 20.4847L50.6791 22.1099L50.8269 44.2728L50.6791 45.7504L50.9007 49.5919L50.0142 51.7343L48.4628 52.547L39.5238 52.2515L37.9724 51.8082L37.3814 50.109V49.0009L37.2336 45.6765L37.3814 44.3467L37.2336 41.6133L37.3814 38.7321L37.1598 35.7771L37.3075 31.7139L36.7165 30.6057L35.7561 31.049L32.7272 34.1518L31.6929 34.8905L29.6244 37.3285L28.7379 38.215L27.7036 39.3231L26.2261 40.4313L24.6008 40.3574L23.0494 39.2492L21.0547 37.3285L20.0943 36.1464L17.0654 33.1175L16.1789 32.0094L14.9969 31.049L14.2581 30.7535L13.5932 31.4184V34.2995L13.741 35.9248L13.5932 38.5844L13.6671 40.1358L13.4455 42.4259L13.6671 50.1829L12.7806 51.5127L10.7121 52.3992L8.34802 52.2515L6.72274 52.4731L3.84157 52.3253L2.36404 52.547Z" fill="#ECEBF3"/>
-           </svg>
-       </div>
-   </section>
-    <section>
-        <h2>Just In</h2>
+    <section class="w-full h-screen md:h-fit flex mb-32 md:mb-16 pt-16">
+        <div
+            class="content m-auto h-[85%] relative mx-auto flex md:!w-full md:items-center md:h-auto md:py-24 md:justify-center md:text-center md:rounded-none flex-col justify-center rounded-[60px] overflow-hidden px-28 md:p-8 text-white">
+            <img src="/fixed/welcome-bg.png" class="absolute w-full h-full object-cover top-0 left-0 z-0" alt="">
+            <span class="uppercase relative mb-8 font-medium">Транспортно-логистическая компания</span>
+            <h1 class="text-7xl lg:text-5xl md:!text-4xl font-bold relative mb-14">Грузоперевозки по всей<br> России,
+                ЯНАО, ХМАО,<br>Республика
+                Коми, <br>Дальний Восток</h1>
+            <div class="flex gap-4 relative md:flex-col">
+                <x-ui.link href="#contacts">Получить консультацию</x-ui.link>
+                <x-ui.link href="#how-we-work">Подробнее об услугах</x-ui.link>
+            </div>
+        </div>
     </section>
+
+    <section class="py-24 md:py-0 bg-cover bg-center mb-32 md:mb-16 relative">
+        <img src="/fixed/block-2-bg.png"
+             class="absolute top-0 left-0 w-full h-full object-cover object-center z-0 md:hidden" alt="">
+        <div class="content flex flex-col justify-center items-center text-center gap-8 relative">
+            <p class="text-3xl text-white md:text-black">Надёжная и быстрая<br>
+                доставка грузов из Москвы и Санкт-Петербурга в Ямало-Ненецкий<br> автономный округ. Станции Обская,
+                Карская и Бованенково.<br> Современный транспорт, индивидуальный подход, контроль доставки<br>
+                на каждом этапе пути.</p>
+            <x-ui.link class="md:hidden" href="#contacts">Получить консультацию</x-ui.link>
+        </div>
+    </section>
+
+    <section class="content flex flex-col gap-8 mb-32 md:mb-16">
+        <h2>Наши клиенты</h2>
+        <div class="flex gap-16 items-center justify-center md:gap-2 md:flex-col">
+            @for($i=1; $i<7; $i++)
+                <img src="/fixed/partner-logos/{{$i}}.png" class="h-fit" alt="">
+            @endfor
+        </div>
+    </section>
+
+    <section id="about" style="background-image: url('/fixed/about-bg.png')"
+             class="py-24 bg-cover bg-center content rounded-[60px] mb-32 md:mb-16 md:w-full md:rounded-none">
+        <div class="content flex flex-col justify-center items-center text-center gap-8">
+            <h2 class="text-white">О НАС</h2>
+            <p class="text-2xl text-white max-w-3xl">
+                Более 20 лет наша компания специализируется на организации грузоперевозок из Москвы и Санкт-Петербурга в
+                ЯНАО, ХМАО, Республику Коми и Дальний Восток. Наш опыт
+                позволяет нам обеспечивать надежную доставку любых видов грузов — от стандартных до негабаритных
+                и температурных.
+            </p>
+            <x-ui.link href="#contacts">Оставить заявку на перевозку</x-ui.link>
+        </div>
+    </section>
+
+    @php
+        $whys = [
+            [
+                'icon' => '/fixed/why-icon-1.svg',
+                'title' => "Опыт <br> и экспертиза",
+                'text' => 'компания на протяжении 20 лет является надежным поставщиком в грузоперевозках.'
+            ],
+            [
+                'icon' => '/fixed/why-icon-2.svg',
+                'title' => 'География <br> доставки',
+                'text' => 'доставляем в самые отдалённые и труднодоступные населённые пункты.'
+            ],
+            [
+                'icon' => '/fixed/why-icon-3.svg',
+                'title' => 'Соблюдение <br> сроков',
+                'text' => 'гарантируем своевременную доставку вне зависимости от погодных условий.'
+            ],
+            [
+                'icon' => '/fixed/why-icon-4.svg',
+                'title' => 'Безопасность <br> и страхование',
+                'text' => 'все грузы под надёжной защитой на протяжении всего маршрута.'
+            ]
+        ];
+    @endphp
+    <section class="content flex flex-col gap-16 mb-32 md:mb-16">
+        <h2>Почему мы?</h2>
+        <div class="flex gap-24 items-center justify-center md:flex-col">
+            @foreach($whys as $el)
+                <div class="flex flex-col gap-2 items-center text-center max-w-64">
+                    <img src="{{$el['icon']}}" class="h-16" alt="">
+                    <p class="font-bold text-blue-300 text-3xl">{!! $el['title'] !!}</p>
+                    <p class="text-gray-300">{{$el['text']}}</p>
+                </div>
+            @endforeach
+        </div>
+        <x-ui.link class="hidden md:block mx-auto" href="#contacts">Оставить заявку на перевозку</x-ui.link>
+    </section>
+
+    @php
+        $cons = [
+            [
+                'img' => '/fixed/cons-img-1.png',
+                'icon' => '/fixed/cons-icon-1.png',
+                'title' => "Доставка до точки",
+                'text' => 'Выполняем адресную доставку — от склада отправителя до двери получателя, включая сложные подъезды и удалённые населённые пункты.'
+            ],
+            [
+                'img' => '/fixed/cons-img-2.png',
+                'icon' => '/fixed/cons-icon-2.png',
+                'title' => "Оптимальные маршруты",
+                'text' => 'Разрабатываем индивидуальные маршруты с учетом погодных условий, сезонности и состояния дорог. Это позволяет доставлять грузы максимально быстро и безопасно.'
+            ],
+             [
+                'img' => '/fixed/cons-img-3.png',
+                'icon' => '/fixed/cons-icon-3.png',
+                'title' => "Специализация<br> на северных направлениях",
+                'text' => 'Глубокое знание маршрутов из Центрального федерального округа в ЯНАО. Обеспечиваем сохранность и своевременность доставки даже в самые труднодоступные регионы.'
+            ],
+            [
+                'img' => '/fixed/cons-img-4.png',
+                'icon' => '/fixed/cons-icon-4.png',
+                'title' => "Личный менеджер<br> и поддержка 24/7",
+                'text' => 'Каждому клиенту назначается персональный менеджер. Оперативно консультируем и решаем любые вопросы на протяжении всего маршрута.'
+            ],
+        ];
+    @endphp
+    <section id="cons" class="content flex flex-col mb-32 md:mb-16 md:bg-blue-300 md:w-full md:py-16">
+        <h2 class="uppercase text-center mb-24 md:mb-8 md:text-white">пРЕИМУЩЕСТВА<br> наших перевозок</h2>
+        <div class="flex flex-col gap-28 items-center justify-center max-w-6xl mx-auto md:max-w-lg md:w-[90%]">
+            @foreach ($cons as $el)
+                <div class="flex gap-16 even:flex-row-reverse group md:!flex-col md:flex-initial md:text-white md:justify-center md:text-center">
+                    <div class="relative w-1/2 min-w-[50%] md:w-full">
+                        <img src="{{ $el['img'] }}" class="w-full" alt="">
+                        <div
+                            class="absolute -top-4 -left-4 group-even:left-auto group-even:-right-4 rounded-full bg-blue-300 md:bg-blue-200 flex items-center justify-center p-4">
+                            <img src="{{ $el['icon'] }}" class="md:w-10" alt="">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-6 text-2xl group-even:text-right md:!text-center">
+                        <p class="font-bold uppercase">{!! $el['title'] !!}</p>
+                        <p class="font-medium md:font-normal">{{ $el['text'] }}</p>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </section>
+
+        @php
+            $portfolio = [
+                [
+                    'img' => '/fixed/portfolio-img-1.png',
+                    'title' => "Железнодорожные перевозки ",
+                    'text' => 'Доставим сборные грузы в вагонах с температурным режимом (от 2 дней), а также сборные грузы в крытых вагонах и рефсекциях (от 5 дней). Подача контейнера под загрузку, закрепление грузов,изготовление перегородок.'
+                ],
+                [
+                    'img' => '/fixed/portfolio-img-2.png',
+                    'title' => "Речные перевозки июнь - сентябрь",
+                    'text' => 'Во время ожидания открытия навигации, мы храним ваш груз на крытых тёплых, холодных складах и открытой площадке. рекомендуем заранее планировать речные перевозки.'
+                ],
+                 [
+                    'img' => '/fixed/portfolio-img-3.png',
+                    'title' => "Перевозка негабаритных грузов",
+                    'text' => 'Перевозим по ж/д и дорогам общего пользования, а такжк зимними автодорогами Ямала и водным транспортом.  Доверяя нам перевозку, вы можете быть спокойны за сохранность груза - мы профессионалы своего дела.'
+                ],
+            ];
+        @endphp
+
+        <section class="bg-blue-300 py-16 flex flex-col gap-12 mb-20 md:bg-white">
+            <h2 class="text-white uppercase md:text-black text-center">портфолио перевозок</h2>
+            <div class="flex gap-8 max-w-6xl w-[90%] mx-auto md:flex-col">
+                @foreach($portfolio as $el)
+                    <div class="flex flex-col rounded-[50px] bg-white overflow-hidden flex-1 shadow-[3px_3px_12.2px_0px_rgba(0,0,0,0.42)]">
+                        <img src="{{$el['img']}}" class="w-full h-56 rounded-[50px] object-cover" alt="">
+                        <div class="flex flex-col px-6 pt-4 pb-8 text-center flex-1">
+                            <p class="font-bold text-2xl mb-5">{{$el['title']}}</p>
+                            <p class="text-lg mb-4">{{$el['text']}}</p>
+                            <x-ui.link class="mt-auto uppercase text-lg" href="#contacts">Оставить заявку</x-ui.link>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </section>
+
+        @php
+            $how = [
+                [
+                    'icon' => '/fixed/how-icon-1.svg',
+                    'title' => "Анализ задачи и консультация",
+                    'text' => 'Мы подробно изучаем ваши требования по грузоперевозке, консультируем по маршрутам и оптимальным условиям доставки.'
+                ],
+                [
+                    'icon' => '/fixed/how-icon-2.svg',
+                    'title' => "Разработка маршрута и оформление документов",
+                    'text' => 'Спланируем маршрут по Центральному федеральному округу и Ямало-Ненецкому АО, подготовим все необходимые сопроводительные документы.'
+                ],
+                [
+                    'icon' => '/fixed/how-icon-3.svg',
+                    'title' => "Оперативная перевозка",
+                    'text' => 'Выполняем перевозку точно в срок, используя только проверенный автотранспорт и опытных водителей.'
+                ],
+                [
+                    'icon' => '/fixed/how-icon-4.svg',
+                    'title' => "Контроль и доставка «до двери»",
+                    'text' => 'Контролируем передвижение груза на каждом этапе и обеспечиваем доставку до указанного адреса клиента.'
+                ],
+            ];
+        @endphp
+
+        <section id="how-we-work" class="flex flex-col gap-12 mb-32 content">
+            <h2 class="uppercase mr-auto ml-0 md:!mx-auto">КАК МЫ РАБОТАЕМ?</h2>
+            <div class="flex flex-col !max-w-6xl mx-auto md:gap-32">
+                @foreach($how as $key=>$el)
+                    <div class="flex gap-16 odd:ml-auto w-[calc(50%+48px)] md:w-[80%] group">
+                        <div class="flex flex-col group-even:order-2 items-center md:hidden">
+                            <span
+                                class="bg-blue-300 rounded-full p-4 flex items-center justify-center aspect-square w-24 h-24 text-white text-5xl font-black">{{$key + 1}}</span>
+                            <span class="group-last:hidden flex-1 w-4 h-full bg-blue-300"></span>
+                        </div>
+                        <div class="flex gap-4 items-start group-even:text-right pt-8">
+                            <img src="{{$el['icon']}}" class="group-even:order-2" alt="">
+                            <div class="flex flex-col gap-4 text-2xl">
+                                <p class="font-semibold uppercase text-red-300 text-2xl">{{$el['title']}}</p>
+                                <p class="">{{$el['text']}}</p>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </section>
+
+        <section style="background-image: url('/fixed/app-bg.png')"
+                 class="bg-cover bg-center content relative mx-auto flex gap-24 rounded-[60px] p-28 md:p-8 overflow-hidden text-white mb-44">
+            <div class="flex flex-col gap-8 w-1/2 md:w-full md:text-center">
+                <h1 class="text-5xl uppercase font-medium relative">Быстрая заявка<br> на перевозку<br> грузов</h1>
+                <p class="text-2xl">Мы специализируемся на организации надёжных и своевременных грузоперевозок по всей
+                    России.</p>
+                <p class="text-2xl">Заполните форму — и наш специалист свяжется с вами для индивидуального расчёта стоимости
+                    и сроков доставки.</p>
+            </div>
+        </section>
+
+        <section id="contacts" style="background-image: url('/fixed/contacts-bg.png')"
+                 class="bg-cover bg-center py-20">
+            <div class="content flex gap-24 text-white !max-w-7xl md:flex-col">
+                <div class="flex flex-col text-start justify-start w-1/2 md:w-full md:text-center md:justify-center">
+                    <h2 class="text-5xl ml-0 mb-8 md:mx-auto">КОНТАКТЫ</h2>
+                    <p class="text-2xl mb-20">Мы оперативно ответим на любые вопросы по перевозке грузов, рассчитаем стоимость, дадим консультацию
+                        по логистике и документам.</p>
+                    <div class="flex flex-col gap-2 md:items-center mb-6">
+                        @php
+                            $contacts = [
+                                ['icon' => '/fixed/contact-icon-1.svg', 'text' => '+7 (926) 707-15-48'],
+                                ['icon' => '/fixed/contact-icon-1.svg', 'text' => '+7 (916) 141-00-06'],
+                                ['icon' => '/fixed/contact-icon-2.svg', 'text' => 'sobolev-1101@yandex.ru'],
+                                ['icon' => '/fixed/contact-icon-3.svg', 'text' => 'Люберцы, ул. Волковская, д.1']
+                            ];
+                        @endphp
+                        @foreach($contacts as $el)
+                            <div class="flex gap-2 text-xl">
+                                <img src="{{$el['icon']}}" class="w-7 h-auto" alt="">
+                                <span class="font-bold">{{$el['text']}}</span>
+                            </div>
+                        @endforeach
+                    </div>
+                    <p class="text-xl"><span class="font-semibold">Время работы: </span>Пн–Пт: 09:00–20:00</p>
+                </div>
+                <div class="w-1/2 md:w-full">
+                    <livewire:components.contact-form/>
+                </div>
+
+            </div>
+        </section>
 </main>

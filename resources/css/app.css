@@ -7,10 +7,23 @@
     box-sizing: border-box;
 }
 
+html {
+    @apply text-[16px] md:!text-[14px] scroll-smooth;
+}
+
 body {
     @apply bg-main_bg;
 }
 
 h2 {
-    @apply font-[Forum] font-normal text-5xl;
+    @apply font-semibold uppercase text-4xl mx-auto;
+}
+
+input, textarea {
+    @apply outline-none border-none focus:outline-none focus:!shadow-none focus:ring-0 focus:ring-transparent;
+}
+
+
+.content {
+    @apply w-[90%] max-w-[1600px] mx-auto;
 }

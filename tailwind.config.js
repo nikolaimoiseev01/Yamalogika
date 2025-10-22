@@ -12,12 +12,20 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Lato', ...defaultTheme.fontFamily.sans],
+                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                main_bg: '#ECEBF3',
-                maroon: {
-                    500: '#ECEBF3'
+                main_bg: '#FFFFFF',
+                red: {
+                    300: '#F11E3A'
+                },
+                blue: {
+                    100: '#78CADB',
+                    200: '#336189',
+                    300: '#00447F'
+                },
+                gray: {
+                    300: '#717171'
                 }
             },
             screens: {
