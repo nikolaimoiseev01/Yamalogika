@@ -13,6 +13,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+                akrobat: ['Akrobat', 'sans-serif'],
             },
             colors: {
                 main_bg: '#FFFFFF',

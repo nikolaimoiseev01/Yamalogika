@@ -191,7 +191,7 @@
                 ],
                 [
                     'icon' => '/fixed/how-icon-4.svg',
-                    'title' => "Контроль и доставка «до двери»",
+                    'title' => "Контроль и доставка<br> «до двери»",
                     'text' => 'Контролируем передвижение груза на каждом этапе и обеспечиваем доставку до указанного адреса клиента.'
                 ],
             ];
@@ -204,13 +204,13 @@
                     <div class="flex gap-16 odd:ml-auto w-[calc(50%+48px)] md:w-[80%] group">
                         <div class="flex flex-col group-even:order-2 items-center md:hidden">
                             <span
-                                class="bg-blue-300 rounded-full p-4 flex items-center justify-center aspect-square w-24 h-24 text-white text-5xl font-black">{{$key + 1}}</span>
+                                class="bg-blue-300 rounded-full p-4 flex items-center justify-center aspect-square w-24 h-24 text-white text-6xl font-black" style="font-family: 'Akrobat', sans-serif;">{{$key + 1}}</span>
                             <span class="group-last:hidden flex-1 w-4 h-full bg-blue-300"></span>
                         </div>
                         <div class="flex gap-4 items-start group-even:text-right pt-8">
                             <img src="{{$el['icon']}}" class="group-even:order-2" alt="">
                             <div class="flex flex-col gap-4 text-2xl">
-                                <p class="font-semibold uppercase text-red-300 text-2xl">{{$el['title']}}</p>
+                                <p class="font-semibold uppercase text-red-300 text-2xl">{!! $el['title'] !!}</p>
                                 <p class="">{{$el['text']}}</p>
                             </div>
                         </div>

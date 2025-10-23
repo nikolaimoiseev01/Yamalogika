@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Akrobat';
+    src: url('/fixed/fonts/akrobat/Akrobat-Bold.eot');
+    src: local('Akrobat Bold'), local('Akrobat-Bold'),
+    url('/fixed/fonts/akrobat/Akrobat-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fixed/fonts/akrobat/Akrobat-Bold.woff2') format('woff2'),
+    url('/fixed/fonts/akrobat/Akrobat-Bold.woff') format('woff'),
+    url('/fixed/fonts/akrobat/Akrobat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
