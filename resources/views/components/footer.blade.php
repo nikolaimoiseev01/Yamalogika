@@ -11,15 +11,7 @@
             <p>+7 (926) 707-15-48</p>
             <p>sobolev-1101@yandex.ru</p>
         </div>
-        <div class="flex flex-col">
-            <h3 class="font-semibold text-xl text-white mb-2">Получить прайс</h3>
-            <div class="flex items-center bg-blue-200 rounded-xl">
-                <input type="text" class="bg-blue-200 rounded-xl text-white placeholder:text-gray-50 outline-none border-none focus:outline-none focus:!shadow-none focus:ring-0 focus:ring-transparent" placeholder="введите свой e-mail">
-                <div class="pr-4 cursor-pointer">
-                    <img src="/fixed/send-icon.svg" class="w-4 h-4" alt="">
-                </div>
-            </div>
-        </div>
+        <livewire:email-contact/>
     </div>
     <div class="content text-white flex justify-between flex-wrap gap-8">
         <div class="flex flex-col gap-10 pt-8">
