@@ -210,7 +210,7 @@
                         <div class="flex gap-4 items-start group-even:text-right pt-8">
                             <img src="{{$el['icon']}}" class="group-even:order-2" alt="">
                             <div class="flex flex-col gap-4 text-2xl">
-                                <p class="font-semibold uppercase text-red-300 text-2xl">F{!! $el['title'] !!}</p>
+                                <p class="font-semibold uppercase text-red-300 text-2xl">{!! $el['title'] !!}</p>
                                 <p class="">{{$el['text']}}</p>
                             </div>
                         </div>
